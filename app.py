@@ -20,4 +20,4 @@ def get_hit_count():
 @app.route('/')
 def hello():
     count = get_hit_count()
-    return 'Hello World! You have been seen {} times.\n\n\n<p>This is a sample docker app by Parag based on redis '.format(count)
+    return 'Hello World! You have been seen {} times.\n\n\n<p>This is a sample docker app by Parag based on redis. This is a change to check Jenkins build fetching update from Git'.format(count)
