@@ -39,5 +39,18 @@ docker-compose up -d
 
 <kbd><img width="621" alt="jenkins after change" src="https://github.com/paragpallavsingh/flask-app/assets/40052830/049dd2d7-67dc-4dcc-b77d-4dd807b97ba5"></kbd>
 
+**SCM Polling**
+
+<kbd>![image](https://github.com/paragpallavsingh/flask-app/assets/40052830/8d512a9c-40e7-476c-a49e-4471f3ddf8c0)</kbd>
+
+## Steps to Set Webhook on Github
+1: Go to repository --> Settings --> Webhooks
+2: In the Payload URL, paste your "Jenkins server URL"github-webhook/
+3: Select the event (PUSH/everything/individual event) for trigger 
+4: Save Webhook
+
+<kbd>![image](https://github.com/paragpallavsingh/flask-app/assets/40052830/1e3e64cb-6010-4d39-802c-421b2f270c87)</kbd>
+
+
 
 
